@@ -62,10 +62,10 @@
         Base {
             label = "Base";
             bindings = <
-              &kp Q             &kp W       &kp E          &kp R                &kp T        &kp DE_Z  &kp U                &kp I        &kp O       &kp P
-              &hm LEFT_SHIFT A  &hm LALT S  &hm LCTRL D    &hm RIGHT_COMMAND F  &kp G        &kp H     &hm RIGHT_COMMAND J  &hm RCTRL K  &hm RALT L  &hm RIGHT_SHIFT SEMICOLON
-&lt 3 ESCAPE  &kp DE_Y          &kp X       &kp C          &kp V                &kp B        &kp N     &kp M                &kp COMMA    &kp DOT     &kp SLASH                  &lt 4 APOSTROPHE
-                                            &mt LCTRL DEL  &lt 1 TAB            &kp SPACE    &kp RET   &lt 2 BSPC           &kp MINUS
+              &kp Q             &kp W       &kp E          &kp R                &kp T        &kp DE_Z   &kp U                &kp I        &kp O       &kp P
+              &hm LEFT_SHIFT A  &hm LALT S  &hm LCTRL D    &hm RIGHT_COMMAND F  &kp G        &kp H      &hm RIGHT_COMMAND J  &hm RCTRL K  &hm RALT L  &hm RIGHT_SHIFT SEMICOLON
+&lt 3 ESCAPE  &kp DE_Y          &kp X       &kp C          &kp V                &kp B        &kp N      &kp M                &kp COMMA    &kp DOT     &kp SLASH                  &lt 4 APOSTROPHE
+                                            &mt LCTRL DEL  &lt 1 TAB            &kp ENTER    &kp SPACE  &lt 2 BSPC           &kp MINUS
             >;
         };
 
