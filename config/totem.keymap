@@ -83,10 +83,10 @@
         Nav {
             label = "Nav";
             bindings = <
-              &kp EXCL        &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp LBRC         &kp RBRC            &kp NUMBER_7         &kp NUMBER_8  &kp NUMBER_9  &kp DE_QUESTION
-              &kp LEFT_SHIFT  &kp LEFT           &kp DOWN          &kp RIGHT        &kp LBKT         &kp RBKT            &kp NUMBER_4         &kp NUMBER_5  &kp NUMBER_6  &kp DE_MINUS
-&kp LEFT_ALT  &trans          &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp LPAR         &kp RPAR            &kp NUMBER_1         &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp DE_PLUS
-                                                 &kp PAGE_UP       &trans           &kp PAGE_DOWN    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp NUMBER_0
+              &kp EXCL        &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp LBRC         &kp RBRC            &kp NUMBER_7     &kp NUMBER_8         &kp NUMBER_9  &kp DE_QUESTION
+              &kp LEFT_SHIFT  &kp LEFT           &kp DOWN          &kp RIGHT        &kp LBKT         &kp RBKT            &kp NUMBER_4     &kp NUMBER_5         &kp NUMBER_6  &kp DE_MINUS
+&kp LEFT_ALT  &trans          &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp LPAR         &kp RPAR            &kp NUMBER_1     &kp NUMBER_2         &kp NUMBER_3  &kp KP_MULTIPLY  &kp DE_PLUS
+                                                 &kp PAGE_UP       &trans           &kp PAGE_DOWN    &kp LC(LEFT_ARROW)  &kp KP_NUMBER_0  &kp LC(RIGHT_ARROW)
             >;
         };
 
