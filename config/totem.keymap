@@ -75,7 +75,7 @@
             bindings = <
               &urn DE_N1 DE_Q   &urn DE_N2 DE_W  &urn DE_N3 DE_E  &urn DE_N4 DE_R      &urn DE_N5 DE_T    &urn DE_N6 DE_Z  &urn DE_N7 DE_U      &urn DE_N8 DE_I  &urn DE_N9 DE_O  &urn DE_N0 DE_P
               &hm LEFT_SHIFT A  &hm LALT S       &hm LCTRL D      &hm RIGHT_COMMAND F  &hm ENTER DE_G     &hm ENTER H      &hm RIGHT_COMMAND J  &hm RCTRL K      &hm RALT L       &hm RIGHT_SHIFT SEMICOLON
-&lt 4 ESCAPE  &kp DE_Y          &kp X            &kp C            &kp V                &kp B              &kp N            &kp M                &kp COMMA        &kp DOT          &kp MINUS                  &lt 4 ENTER
+&lt 4 ESCAPE  &kp DE_Y          &kp X            &kp C            &kp V                &kp B              &kp N            &kp M                &kp COMMA        &kp DOT          &kp DE_MINUS               &lt 4 ENTER
                                                  &lt 3 DEL        &lt 1 TAB            &kp SPACE          &kp SPACE        &lt 2 BSPC           &kp MINUS
             >;
         };
