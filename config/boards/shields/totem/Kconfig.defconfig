@@ -17,3 +17,25 @@ config ZMK_SPLIT
     default y
 
 endif
+
+config ZMK_IDLE_TIMEOUT
+    int "Milliseconds of inactivity before entering idle state (OLED shutoff, etc)"
+    default 30000
+
+config ZMK_SLEEP
+    bool "Enable deep sleep support"
+    depends on HAS_POWEROFF
+    select POWEROFF
+    select ZMK_PM_DEVICE_SUSPEND_RESUME
+    imply USB
+
+if ZMK_SLEEP
+
+config PM_DEVICE
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    int "Milliseconds of inactivity before entering deep sleep"
+    default 900000
+
+endif # ZMK_SLEEP
