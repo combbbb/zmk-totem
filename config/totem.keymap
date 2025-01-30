@@ -85,10 +85,10 @@
         Nav {
             label = "Nav";
             bindings = <
-              &kp EXCL          &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp NUMBER_7     &kp NUMBER_8         &kp NUMBER_9  &kp DE_QUESTION
-              &kp LEFT_SHIFT    &kp LEFT           &kp DOWN          &kp RIGHT        &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp NUMBER_4     &kp NUMBER_5         &kp NUMBER_6  &kp DE_MINUS
-&kp LEFT_ALT  &kp DE_LESS_THAN  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp NUMBER_1     &kp NUMBER_2         &kp NUMBER_3  &kp KP_MULTIPLY  &kp DE_PLUS
-                                                   &kp PAGE_UP       &trans           &kp PAGE_DOWN              &kp LC(LEFT_ARROW)        &kp KP_NUMBER_0  &kp LC(RIGHT_ARROW)
+              &kp EXCL              &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp NUMBER_7     &kp NUMBER_8         &kp NUMBER_9  &kp DE_QUESTION
+              &kp LEFT_SHIFT        &kp LEFT           &kp DOWN          &kp RIGHT        &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp NUMBER_4     &kp NUMBER_5         &kp NUMBER_6  &kp DE_MINUS
+&kp LEFT_ALT  &kp NON_US_BACKSLASH  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp NUMBER_1     &kp NUMBER_2         &kp NUMBER_3  &kp KP_MULTIPLY  &kp DE_PLUS
+                                                       &kp PAGE_UP       &trans           &kp PAGE_DOWN              &kp LC(LEFT_ARROW)        &kp KP_NUMBER_0  &kp LC(RIGHT_ARROW)
             >;
         };
 
