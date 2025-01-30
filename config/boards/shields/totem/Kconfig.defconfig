@@ -1,6 +1,10 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
+CONFIG_ZMK_KEYMAP_ISO=y
+
+CONFIG_ZMK_POINTING=y
+
 if SHIELD_TOTEM_LEFT
 
 config ZMK_KEYBOARD_NAME
@@ -40,5 +44,4 @@ config ZMK_IDLE_SLEEP_TIMEOUT
 
 endif # ZMK_SLEEP
 
-CONFIG_ZMK_KEYMAP_ISO=y
 
