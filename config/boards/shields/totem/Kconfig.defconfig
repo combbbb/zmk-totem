@@ -39,3 +39,5 @@ config ZMK_IDLE_SLEEP_TIMEOUT
     default 900000
 
 endif # ZMK_SLEEP
+
+CONFIG_ZMK_KEYMAP_ISO=y
