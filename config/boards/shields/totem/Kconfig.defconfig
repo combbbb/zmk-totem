@@ -42,4 +42,3 @@ endif # ZMK_SLEEP
 
 CONFIG_ZMK_KEYMAP_ISO=y
 
-endif
