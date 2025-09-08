@@ -108,8 +108,8 @@
         Fun {
             label = "Fun";
             bindings = <
-        &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &tog 7    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DE_U_UMLAUT
-        &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &to 5     &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp F10
+        &trans  &kp KP_NUMBER_7  &kp UP_ARROW     &kp KP_NUMBER_9  &tog 7    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DE_U_UMLAUT
+        &trans  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &to 5     &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp F10
 &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F20          &kp F1
                                  &trans           &trans           &trans    &trans  &kp KP_NUMBER_0  &trans
             >;
