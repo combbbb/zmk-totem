@@ -88,7 +88,7 @@
             label = "Nav";
             bindings = <
               &kp EXCL              &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp LG(DE_Z)               &kp DE_RIGHT_BRACE        &kp DE_U_UMLAUT     &mmv MOVE_UP    &kp DE_O_UMLAUT  &kp DE_QUESTION
-              &kp LEFT_SHIFT        &kp LEFT           &kp DOWN          &kp RIGHT        &kp DELETE                 &kp RIGHT_BRACKET         &mmv MOVE_LEFT      &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DE_A_UMLAUT
+              &kp LEFT_SHIFT        &kp LEFT           &kp DOWN          &kp RIGHT        &kp LEFT_BRACKET           &kp RIGHT_BRACKET         &mmv MOVE_LEFT      &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DE_A_UMLAUT
 &kp LEFT_ALT  &kp NON_US_BACKSLASH  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp LC(LEFT_ARROW)  &kp NUMBER_2    &kp LC(RIGHT)    &kp DE_MINUS     &kp DE_PLUS
                                                        &kp PAGE_UP       &trans           &kp PAGE_DOWN              &kp LG(SPACE)             &mkp MB1            &mkp MB2
             >;
@@ -99,7 +99,7 @@
             bindings = <
         &kp EXCL  &kp AT  &kp DE_HASH  &kp DOLLAR  &kp PERCENT            &kp CARET             &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp DQT
         &trans    &trans  &trans       &trans      &kp DE_LEFT_BRACKET    &kp DE_RIGHT_BRACKET  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DE_SQT
-&trans  &trans    &trans  &trans       &trans      &trans                 &kp UNDER             &kp EQUAL       &trans          &trans           &kp SLASH   &kp HOME
+&trans  &trans    &trans  &trans       &trans      &trans                 &kp UNDER             &kp EQUAL       &trans          &trans           &kp SLASH   &trans
                           &trans       &trans      &trans                 &trans                &trans          &trans
             >;
         };
@@ -107,10 +107,10 @@
         Fun {
             label = "Fun";
             bindings = <
-        &trans  &kp KP_NUMBER_7  &kp UP_ARROW     &kp KP_NUMBER_9  &trans    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DE_U_UMLAUT
-        &trans  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp F10
-&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kt A            &kp F1
-                                 &trans           &trans           &trans    &trans  &kp KP_NUMBER_0  &trans
+        &trans  &trans          &kp UP_ARROW    &trans           &trans    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
+        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
+&trans  &trans  &trans          &trans          &trans           &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
+                                &trans          &trans           &trans    &trans  &kp KP_NUMBER_0  &trans
             >;
         };
 
