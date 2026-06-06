@@ -18,6 +18,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define Base        0
@@ -117,10 +118,10 @@
         Button {
             label = "Button";
             bindings = <
-        &trans  &trans  &bt BT_NXT  &bt BT_CLR  &bt BT_SEL 0    &trans  &trans      &trans     &trans    &trans
-        &trans  &trans  &trans      &trans      &bt BT_SEL 1    &trans  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&trans  &trans  &trans  &trans      &trans      &bt BT_SEL 2    &trans  &trans      &trans     &trans    &trans    &trans
-                        &trans      &trans      &trans          &trans  &trans      &trans
+        &trans  &trans  &bt BT_NXT    &bt BT_CLR    &bt BT_SEL 0    &trans  &trans      &trans     &trans    &trans
+        &trans  &trans  &trans        &trans        &bt BT_SEL 1    &trans  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&trans  &trans  &trans  &trans        &trans        &bt BT_SEL 2    &trans  &trans      &trans     &trans    &trans    &trans
+                        &bt BT_SEL 0  &bt BT_SEL 1  &out OUT_USB    &trans  &trans      &trans
             >;
         };
     };
