@@ -88,9 +88,9 @@
         Nav {
             label = "Nav";
             bindings = <
-              &kp EXCL              &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp LG(DE_Z)               &kp DE_RIGHT_BRACE        &kp DE_U_UMLAUT     &mmv MOVE_UP    &kp DE_O_UMLAUT  &kp DE_QUESTION
-              &kp LEFT_SHIFT        &kp LEFT           &kp DOWN          &kp RIGHT        &kp LEFT_BRACKET           &kp RIGHT_BRACKET         &mmv MOVE_LEFT      &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DE_A_UMLAUT
-&kp LEFT_ALT  &kp NON_US_BACKSLASH  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp LC(LEFT_ARROW)  &kp NUMBER_2    &kp LC(RIGHT)    &kp DE_MINUS     &kp DE_PLUS
+              &kp EXCL              &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp LG(DE_Z)               &kp DE_RIGHT_BRACE        &kp DE_U_UMLAUT     &mmv MOVE_UP     &kp DE_O_UMLAUT  &kp DE_QUESTION
+              &kp LEFT_SHIFT        &kp LEFT           &kp DOWN          &kp RIGHT        &kp LEFT_BRACKET           &kp RIGHT_BRACKET         &mmv MOVE_LEFT      &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp DE_A_UMLAUT
+&kp LEFT_ALT  &kp NON_US_BACKSLASH  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp LC(LEFT_ARROW)  &kp DE_ASTERISK  &kp LC(RIGHT)    &kp DE_MINUS     &kp DE_PLUS
                                                        &kp PAGE_UP       &trans           &kp PAGE_DOWN              &kp LG(SPACE)             &mkp MB1            &mkp MB2
             >;
         };
